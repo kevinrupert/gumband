@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="assets/imgs/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"> -->
+    <link href="assets/style/css/main.css" media="all" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="page-container">
+      <div class="new-user-container">
+        <div class="new-user">
+          <div class="close-icon">
+            <img src="assets/imgs/close.svg" />
+          </div>
+          <div class="text">
+            <h2 class="title-2">New User</h2>
+            <input class="mar-top-24" name="email" type="text" placeholder="Email">
+            <select class="mar-top-16" name="permissions">
+              <option>Admin</option>
+              <option>Member</option>
+            </select>
+          <a href="#" class="button text mar-top-24">
+            <p class="regular">Add</p>
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="side-bar">
+        <div class="title-container">
+          <div class="back-arrow">
+            <a href="/maintain">
+              <img src="assets/imgs/back-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="nav">
+          <ul>
+            <li class="title-3 selected">
+              <a href="#">
+                Manage Users
+              </a>
+            </li>
+            <li class="title-3">
+              <a href="#">
+                Support
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="sign-out">
+          <a href="#" class="button text">
+            <p class="regular">Sign Out</p>
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main-title users">
+          <h1 class="title-1">Users</h1>
+          <a href="#" class="button text new-user-button">
+            <div class="icon">
+              <img src="assets/imgs/new-user.svg" />
+            </div>
+            <p class="regular">New User</p>
+          </a>
+        </div>
+        <div class="card-list top">
+          <div class="user-card">
+            <p class="title-3">patrick@deeplocal.com</p>
+            <select name="permissions">
+              <option>Admin</option>
+              <option>Member</option>
+            </select>
+          </div>
+          <div class="user-card">
+            <p class="title-3">kevin@deeplocal.com</p>
+            <select name="permissions">
+              <option>Admin</option>
+              <option>Member</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script media="all" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script media="all" src="assets/js/jquery.waypoints.min.js"></script>
+    <script media="all" src="assets/js/main.js"></script>
+  </body>
+</html>
