@@ -1,4 +1,5 @@
 RewriteEngine On
+RewriteBase /
+RewriteRule ^gumband/(.*)$ $1 [R=302,NE,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-RewriteBase /gumband/
