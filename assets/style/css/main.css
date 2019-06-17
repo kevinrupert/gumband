@@ -249,7 +249,7 @@ select {
       right: 16px;
       width: 44px;
       height: 44px;
-      background: url("/../assets/imgs/user-bg.svg");
+      background: url("/assets/imgs/user-bg.svg");
       background-size: cover;
       background-position: center;
       border-radius: 100%;
